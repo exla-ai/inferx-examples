@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import tempfile
 import io
-from exla.models.sam2 import sam2
+from inferx.models.sam2 import sam2
 
 # Setup with image and video
 data_dir = "data"

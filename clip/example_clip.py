@@ -1,4 +1,4 @@
-from exla.models.clip import clip
+from inferx.models.clip import clip
 import json
 
 model = clip()

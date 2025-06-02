@@ -1,4 +1,4 @@
-from exla.models.robopoint import robopoint
+from inferx.models.robopoint import robopoint
 
 
 model = robopoint()

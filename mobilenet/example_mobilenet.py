@@ -1,4 +1,4 @@
-from exla.models.mobilenet import mobilenet
+from inferx.models.mobilenet import mobilenet
 
 def main():
     # Create model - it will automatically detect the hardware

@@ -8,7 +8,7 @@ from torch.utils.data import Subset
 import numpy as np
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from exla.models.resnet34 import resnet34
+from inferx.models.resnet34 import resnet34
 
 def create_cifar_loaders(num_train_samples=500, batch_size=32):
     """Create CIFAR-10 data loaders with a subset of training data."""

@@ -1,4 +1,4 @@
-from exla.optimize import optimize_model
+from inferx.optimize import optimize_model
 import torch
 
 # Load and optimize the model with FP16 precision

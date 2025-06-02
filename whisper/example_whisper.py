@@ -1,7 +1,7 @@
 import sys
 import os
 
-from exla.models.whisper import whisper
+from inferx.models.whisper import whisper
 
 
 model = whisper()
