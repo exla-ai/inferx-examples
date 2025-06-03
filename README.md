@@ -1,22 +1,43 @@
-# Exla SDK Examples
+# InferX Examples
 
-This repository contains example code for using the Exla SDK, a powerful toolkit for optimizing and deploying machine learning models across various hardware platforms.
+This repository contains example code for using the InferX, a powerful toolkit for optimizing and deploying machine learning models across various hardware platforms.
 
-## Getting Started
+## 🚀 Quick Start
 
-To run these examples, you'll need access to the Exla SDK. Please reach out to the Exla team at [contact@exla.ai](mailto:contact@exla.ai) to request access.
+1. **Add your user to the Docker group**
+   ```bash
+   sudo usermod -aG docker $USER
+   ```
+   **⚠️ Restart your terminal** for this to take effect.
 
-## Examples
+2. **Install UV**
+   ```bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
 
-This repository includes examples for:
+3. **Clone the examples repository**:
+   ```bash
+   git clone https://github.com/exla-ai/inferx-examples.git
+   cd inferx-examples
+   ```
 
-- Custom model optimization
-- Pre-trained model deployment
-- Hardware-specific optimizations for GPUs and Jetson devices
-- Multimodal models like RoboPoint
-- Computer vision models
-- Large language models
+4. **Install InferX**:
+   ```bash
+   uv pip install git+https://github.com/exla-ai/InferX.git
+   ```
+
+5. **Activate the virtual environment**:
+   ```bash
+   source .venv/bin/activate
+   ```
+
+6. **Run your first example**:
+   ```bash
+   python clip/example_clip.py
+   ```
+
+🎉 **That's it!** InferX will automatically detect your hardware and run an optimized instance of the model. 
 
 
 ## Links to the documentation
-- [Exla SDK Documentation](https://exla.mintlify.app/introduction)
+*todo*
