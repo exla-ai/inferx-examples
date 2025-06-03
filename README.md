@@ -38,6 +38,3 @@ This repository contains example code for using the InferX, a powerful toolkit f
 
 🎉 **That's it!** InferX will automatically detect your hardware and run an optimized instance of the model. 
 
-
-## Links to the documentation
-*todo*
