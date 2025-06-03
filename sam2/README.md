@@ -1,11 +1,10 @@
-# SAM2 Example
+# SAM2 Example 
 
 This example demonstrates how to use the Segment Anything 2 (SAM2) model for image and video segmentation on NVIDIA Jetson devices.
 
 ## Prerequisites
 
 - NVIDIA Jetson device (Jetson AGX Orin, Jetson Orin NX, etc.)
-- Python 3.8+
 - EXLA SDK installed
 - OpenCV (for video and camera processing)
 
@@ -22,7 +21,7 @@ To use this example, you need the SAM2 model file:
    ~/.cache/exla/sam2/sam2_b.pth
    ```
 
-## Usage
+## Usage (NOT EVERYTHING HAS BEEN IMPLEMENTED)
 
 ### Image Segmentation
 
